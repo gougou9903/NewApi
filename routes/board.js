@@ -8,7 +8,7 @@ var _ = require('lodash')
 router.get('/list', function(req, res, next) {
 
   unirest.get("https://ismaelc-pinterest.p.mashape.com/Nilauro/boards")
-  .header("X-Mashape-Key", "NAAs0SFAfXmshCft0XJiMBkCUET0p1CkBJijsnro0cXrYPDosV")
+  .header("X-Mashape-Key", "jwDQlMvlecmsha3BHXgGkvEV2yDYp1VTAEJjsnKm95GwEVWk1f")
   //.header("Content-Type", "application/x-www-form-urlencoded")
   .header("Accept", "application/json")
   .end(function (result) {
@@ -28,7 +28,7 @@ router.get('/list', function(req, res, next) {
 router.get('/view/:id', function(req, res, next) {
 
   unirest.get("https://ismaelc-pinterest.p.mashape.com/Nilauro/boards")
-  .header("X-Mashape-Key", "NAAs0SFAfXmshCft0XJiMBkCUET0p1CkBJijsnro0cXrYPDosV")
+  .header("X-Mashape-Key", "jwDQlMvlecmsha3BHXgGkvEV2yDYp1VTAEJjsnKm95GwEVWk1f")
   //.header("Content-Type", "application/x-www-form-urlencoded")
   .header("Accept", "application/json")
   .end(function (result) {

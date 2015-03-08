@@ -1,5 +1,5 @@
 var keys = {
-    mashape: 'NAAs0SFAfXmshCft0XJiMBkCUET0p1CkBJijsnro0cXrYPDosV'
+    mashape: 'jwDQlMvlecmsha3BHXgGkvEV2yDYp1VTAEJjsnKm95GwEVWk1f'
 };
 
 module.exports = keys;
