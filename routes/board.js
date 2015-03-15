@@ -21,6 +21,7 @@ router.get('/list', function(req, res, next) {
 	}
 	console.log(n)
     res.render('boardlist', { title: 'Pinterest', data: n});
+    res.send(n);
   });
 
 });
