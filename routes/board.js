@@ -20,8 +20,8 @@ router.get('/list', function(req, res, next) {
     	n[x].name = n[x].name.substring(0,index)
 	}
 	console.log(n)
-    //res.render('boardlist', { title: 'Pinterest', data: n});
-    res.send(n);
+    res.render('boardlist', { title: 'Pinterest', data: n});
+    
   });
 
 });
